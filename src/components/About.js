@@ -1,5 +1,5 @@
-import React from 'react'
-import './About.css'
+import React from "react";
+import "./About.css";
 
 const About = () => (
   <div className="about">
@@ -19,6 +19,6 @@ const About = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default About
+export default About;
