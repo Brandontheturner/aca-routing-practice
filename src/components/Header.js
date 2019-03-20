@@ -4,17 +4,18 @@ import { Link } from "react-router-dom";
 
 const navStyle = {
   display: "flex",
-  // textAlign: "center"
-  justifyContent: "center",
-  margin: "30px"
+  flexDirection: "row",
+  justifyContent: "space-around"
 };
 
 const Header = () => (
-  <div className="header" style={navStyle}>
-    <ul>
+  <div className="header">
+    <ul style={navStyle}>
       <Link to="/">Landing</Link>
       <Link to="/home">Home</Link>
       <Link to="/about">About</Link>
+      <Link to="/world">World</Link>
+      <Link to="/status">Status</Link>
     </ul>
   </div>
 );
